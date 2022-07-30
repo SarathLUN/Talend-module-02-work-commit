@@ -1,7 +1,5 @@
 # My Work Commit for Module 02
 
----
-
 This repository will store all my work commit include "Practical Document" and "Case Study" of "Module 2: Working With Talend Open Studio DI".
 
 Below is the link to:

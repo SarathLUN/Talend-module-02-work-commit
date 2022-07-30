@@ -1,7 +1,5 @@
 # Module 2: Working With Talend Open Studio DI
 
----
-
 ## Practical Document
 
 ### B. Adding Components In A Job
