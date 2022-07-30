@@ -1,7 +1,5 @@
 # Case Study Module 2: Upgrade a salary tally software and perform a Survey
 
-### Case Study - Statements
-
 ### Problem 1:
 
 Suppose an organization pays their employees on a monthly basis. The salary of each of its employees is tallied in an XML file for each month. But now the management wants to upgrade their salary tally software. According to the new requirements, the new software must perform following things:
