@@ -167,12 +167,12 @@
 
     ![](screenshots/G_01.png)
 
-15. Double click on the tFileInputPositional component and go to its component tab
+15. Double-click on the tFileInputPositional component and go to its component tab
 16. Select Property Type as ‘Repository’
 
     ![](screenshots/H_06.png)
 
-17. From the pop up window, select the pos_metadata file 
+17. From the pop-up window, select the pos_metadata file 
 18. Specify the path of the positional dataset file
 19. Specify the Row Separator as ‘\n’
 20. It will be set by default
@@ -186,3 +186,22 @@
 
     ![](screenshots/H_09.png)
 
+### I. Writing In A Positional File Using Metadata
+
+**STEPS:**
+
+1. From the palette drag the tFileOutputPositional and drop in the previous job workspace.
+
+    ![](screenshots/I_01.png)
+
+2. Connect tLogRow and tFileOutputPositional using ‘Row(Main)’ connection
+3. Go to the component tab of the tFileOutputPositional component and set the path, where you want to save your output file
+
+    ![](screenshots/I_02.png)
+
+4. Select the ‘Schema’ as ‘Repository’
+5. Select the positional metadata from the repository
+6. Check mark ‘Include header’
+7. Go to the ‘Run’ tab to execute the job and generate the output file
+
+    ![](screenshots/I_03.png)
