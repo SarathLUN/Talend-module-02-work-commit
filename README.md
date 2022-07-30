@@ -7,4 +7,4 @@ This repository will store all my work commit include "Practical Document" and "
 Below is the link to:
 
 - [Practical Document](/Practice.md)
-- [My Solution to Case Study](/Case_Study.md)
+- [Case Study](/Case_Study.md)
