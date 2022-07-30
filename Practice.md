@@ -132,3 +132,57 @@
 
     ![](screenshots/G_04.png)
 
+### H. Reading Positional File Using Metadata
+
+**STEPS:**
+
+1. Go to the ‘Repository’ window and expand the ‘Metadata’ section
+2. Right click on File positional
+3. Select ‘Create file positional
+4. Specify the name for your positional metadata as ‘pos_metadata’
+5. Write the purpose
+6. In the description, provide the details
+7. Click ‘Next’ to go to the next step
+
+    ![](screenshots/H_01.png)
+
+8. Specify the path of the positional dataset file present in your local system
+9. To specify the field separators, write values 10,50,50,30,10,10
+
+    ![](screenshots/H_02.png)
+
+10. Click on ‘Next’
+11. Check in the preview section, if you can see the data, then click on ‘Next’
+
+    ![](screenshots/H_03.png)
+
+12. Click to add the schema attributes
+
+    ![](screenshots/H_04.png)
+
+    ![](screenshots/H_05.png)
+
+13. Click on finish to save the schema
+14. Create a job and add a tFileInputPositional and a tLogRow component in the workspace
+
+    ![](screenshots/G_01.png)
+
+15. Double click on the tFileInputPositional component and go to its component tab
+16. Select Property Type as ‘Repository’
+
+    ![](screenshots/H_06.png)
+
+17. From the pop up window, select the pos_metadata file 
+18. Specify the path of the positional dataset file
+19. Specify the Row Separator as ‘\n’
+20. It will be set by default
+21. Select your positional metadata file to sync the schema
+
+    ![](screenshots/H_07.png)
+
+    ![](screenshots/H_08.png)
+
+22. Go to the ‘Run’ tab and click on ‘Run’
+
+    ![](screenshots/H_09.png)
+
