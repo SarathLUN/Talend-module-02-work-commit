@@ -51,7 +51,7 @@
 13. For ‘Escape Char Settings’, select ‘Delimited’
 14. Checkmark the ‘Set heading row as column names’ to set the attributes
 
-![](screenshots/E_04.png)
+    ![](screenshots/E_04.png)
 
 13. Select ‘Next’ to go the next step
 14. Write ‘metadata’ as your file name
@@ -68,15 +68,42 @@
     ![](screenshots/E_07.png)
 
 17. Double-click on the tFileDelimitedInput component and go to its component tab
-18. Select Property Type as ‘Repository’
+18. Select Property Type and schema as and from ‘Repository’
 
     ![](screenshots/E_08.png)
 
     ![](screenshots/E_09.png)
 
-20. Click on this to select a schema from the repository 
-21. Select the delim_metadata to set it as your schema 
-22. Click on ‘OK’
-23. Go to the ‘Run’ tab and click on ‘Run’ to start the execution
+19. Click on ‘OK’
+20. Go to the ‘Run’ tab and click on ‘Run’ to start the execution
 
     ![](screenshots/E_10.png)
+
+### F. Writing In A Delimited File
+
+**STEPS:**
+
+1. From the palette drag the tFileOutputDelimited and drop in the previous job workspace.
+
+    ![](screenshots/F_01.png)
+
+2. Connect tLogRow and tFileOutputDelimited using ‘Row(Main)’ connection
+3. Go to the component tab of the tFileOutputDelimited component and set the path, where you want to save your output file
+
+    ![](screenshots/F_02.png)
+
+4. Specify the Row Separator as ‘\n’
+5. Specify the Field Separator as ‘;’
+6. Go to the ‘Run’ tab to execute the job and generate the output file
+
+    ![](screenshots/F_03.png)
+
+    ![](screenshots/F_04.png)
+
+### G. Reading A Positional File
+
+**STEPS:**
+
+1. Create a new job and add and tLogRow into the workspace
+
+    
