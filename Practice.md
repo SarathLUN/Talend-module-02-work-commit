@@ -106,4 +106,29 @@
 
 1. Create a new job and add and tLogRow into the workspace
 
-    
+    ![](screenshots/G_01.png)
+
+2. Link them using a ‘Row(main)’ link
+3. Go to the component tab of component and specify the source path of your positional file
+4. Specify the Row separator as ‘\n’ 
+
+    ![](screenshots/G_02.png)
+
+5. Now in the Pattern section, input "10,50,50,30,10,10"
+6. Click on 'Edit schema' to set the schema of the positional file
+7. Add the columns. Follow the following sequence to set the column name and its data type:
+   - ID – integer
+   - FName – String
+   - LName - String
+   - City - String
+   - State - String
+   - DOJ – Date
+
+    ![](screenshots/G_03.png)
+
+8. Click ‘OK’ to set the schema
+9. Double-click on tLogRow component, go to its component tab and Select ‘Table’ as a mode, to print the data in the form of a structured table
+10. Go to the Run tab and Click on ‘Run’ to read the positional file row by row
+
+    ![](screenshots/G_04.png)
+
