@@ -34,7 +34,9 @@
 3. (optional) I created a folder to contain metadata for module 2
 4. Right click on folder under "File delimited"
 5. Select "Create file delimited"
+
    ![Create file delimited"](screenshots/E_01.png)
+
 6. Specify the name for your delimited metadata as ‘Emp_Details’
 7. Write the purpose as demo
 8. In the description, provide the details
