@@ -287,3 +287,32 @@
 21. Go to the ‘Run’ tab and click on ‘Run’
 
     ![](screenshots/K_07.png)
+
+### P. Connecting Database
+
+**STEPS:**
+
+1. Go to the ‘Repository’ window and expand the ‘Metadata’ section
+2. Right click on ‘Db Connections’
+3. Select ‘Create connection’
+4. Specify the name
+5. Write the purpose as demo
+6. In the description, provide the details
+7. Click ‘Next’ to go to the next step
+
+    ![](screenshots/P_01.png)
+
+8. Select the DB Type as MySQL
+9. Enter the root username as "root"
+10. Enter the password
+11. Enter Server as "localhost"
+12. Specify the Database "edureka"
+13. Now click on ‘Test connection’ to check the database connectivity
+
+    ![](screenshots/P_02.png)
+
+    ![](screenshots/P_03.png)
+
+14. Select ‘Finish’, if connection was successful
+
+    ![](screenshots/P_04.png)
