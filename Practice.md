@@ -205,3 +205,40 @@
 7. Go to the ‘Run’ tab to execute the job and generate the output file
 
     ![](screenshots/I_03.png)
+
+### J. Reading A XML File
+
+**STEPS:**
+
+1. Create a new job and add tFileInputXML and tLogRow into the workspace
+2. Link them using a ‘Row(main)’ link
+3. Go to the component tab of tFileInputXML component and Click on ‘Edit Schema’
+4. Follow the following sequence to set the column name and its data type:
+
+   - FName : String
+   - LName : String
+   - City : String
+   - Zip : Double
+   - Seq : Integer
+    
+    ![](screenshots/J_01.png)
+
+5. Click on ‘OK’ to propagate the schema
+
+    ![](screenshots/J_02.png)
+
+6. Specify the source path of your XML file
+7. Specify the XPath Query as‘/people/person’
+8. Map your XML fields with your schema by typing the proper XPathQuery against the column names:
+   - FName => “firstname”
+   - LName => “lastname”
+   - City => “city”
+   - Zip => “zip/zipcode”
+   - Seq => “seq”
+    ![](screenshots/J_03.png)
+9. Double-click on tLogRow component, go to its component tab and Select ‘Table’ as a mode, to
+   print the data in the form of a structured table
+10. Go to the Run tab and Click on ‘Run’ to read the XML file row by row
+
+    ![](screenshots/J_04.png)
+
