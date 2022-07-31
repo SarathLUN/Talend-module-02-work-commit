@@ -316,3 +316,31 @@
 14. Select ‘Finish’, if connection was successful
 
     ![](screenshots/P_04.png)
+
+### Q. Retrieving Schemas
+
+**STEPS:**
+
+1. Go to the ‘Repository’ window and expand the ‘Metadata’ section
+2. Under ‘DB Connections’, go to Edureka_db (I renamed from the previous step).
+3. Right click on ‘Edureka_db’ and select ‘Retrieve Schema’
+
+    ![](screenshots/Q_01.png)
+
+4. Select the types as TABLE only for this time, then Next
+
+    ![](screenshots/Q_02.png)
+
+5. select all the tables we want to retrieve the schema, which is only ```emp``` for this time
+
+    ![](screenshots/Q_03.png)
+
+6. Click Next 
+
+    ![](screenshots/Q_04.png)
+
+7. Review the schema, then Finish
+
+    ![](screenshots/Q_05.png)
+
+### R. Reading Data From A Database
