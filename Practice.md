@@ -242,3 +242,48 @@
 
     ![](screenshots/J_04.png)
 
+### K. Reading A XML File Using Metadata
+
+**STEPS:**
+
+1. Go to the ‘Repository’ window and expand the ‘Metadata’ section
+2. Right click on File XML
+3. Select ‘Create file XML’
+4. Specify the name for your positional metadata as ‘xml_metadata’
+5. Write the purpose
+6. In the description, provide the details
+
+    ![](screenshots/K_01.png)
+
+7. Select the folder where you want to create the file
+8. Click ‘Next’ to go to the next step
+9. Select ‘Input XML’
+
+    ![](screenshots/K_02.png)
+
+10. Click ‘Next’
+11. Set the path of your XML dataset file
+
+    ![](screenshots/K_03.png)
+
+12. Click on ‘Next’
+13. Drag ‘zip’ attribute from the ‘Source Schema’ and drop it into the ‘Target Schema’ >> ‘Xpath loop expression’
+14. Drag the rest attributes from the ‘Source Schema’ and drop them into the ‘Target Schema’ >> ‘Fields to extract’ one by one
+15. Refresh Preview, if everything OK, Click on ‘Next’
+
+    ![](screenshots/K_04.png)
+
+16. Click on ‘Finish’
+
+    ![](screenshots/K_05.png)
+
+17. Now, create a job and add a tFileInputXML and a tLogRow component in the workspace
+18. Double click on the tFileInputXML component and go to its component tab
+19. Select Property Type as ‘Repository’ and select the ‘xml_metadata’ from the repository list
+20. Select Property Type as ‘Repository’. From the repository list, select the ‘xml_metadata’ from the xml category
+
+    ![](screenshots/K_06.png)
+
+21. Go to the ‘Run’ tab and click on ‘Run’
+
+    ![](screenshots/K_07.png)
