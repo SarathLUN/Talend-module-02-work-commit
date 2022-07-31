@@ -344,3 +344,21 @@
     ![](screenshots/Q_05.png)
 
 ### R. Reading Data From A Database
+
+**STEPS:**
+
+1. From the ‘Repository’, drag and drop the ‘emp_details’ in the workspace and select it as a tMySQLInput component.
+2. From the palette drag a tLogRow component and drop it into the workspace
+
+    ![](screenshots/R_01.png)
+
+   ![](screenshots/R_02.png)
+
+3. Connect them using ‘Row(main)’ link
+4. Double-click on tLogRow component and go to its component tab
+5. Select ‘Table’ as a mode, to print the data in form of a structured table
+6. Go to the Run tab
+7. Click on ‘Run’ to read the data
+
+    ![](screenshots/R_03.png)
+
