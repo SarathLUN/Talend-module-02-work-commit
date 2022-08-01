@@ -16,7 +16,31 @@ Now, using Talend Open Studio for DI, generate a solution for it.
 
 ### Solution 1:
 
-_this page is under construction..._ 
+1. created Metadata
+
+  ![](screenshots/CS_01.png)
+
+2. add component "tFileInputXML" and "tLogRow"
+
+  ![](screenshots/CS_02.png)
+
+3. here is the repository
+
+  ![](screenshots/CS_03.png)
+
+  ![](screenshots/CS_04.png)
+
+4. run and get output
+
+  ![](screenshots/CS_05.png)
+
+5. extract salary for 2015 & 2016 with "tMap"
+
+  ![](screenshots/CS_08.png)
+
+  ![](screenshots/CS_06.png)
+
+  ![](screenshots/CS_07.png)
 
 ### Problem 2:
 
