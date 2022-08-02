@@ -63,11 +63,34 @@ Where ‘Key’ is a numeric primary key in the database and ‘Name’ is the c
 
 - Make sure you use a secure connection i.e connect to a database, transfer the files and then close the connection, once the job is done.
 
-**DATA SET FILES:** Sample.csv, LosAngelesandOrangeCounties.csv
+**DATA SET FILES:** SampleFile.csv, LosAngelesandOrangeCounties.csv
 
 ### Solution 2:
 
-_this page is under construction..._
+1. create table schema
+```sql
+create table LosAngelesandOrangeCounties
+(
+	`Key` int auto_increment,
+	Name varchar(40) null,
+	Address varchar(40) null,
+	Country varchar(40) null,
+	constraint LosAngelesandOrangeCounties_pk
+		primary key (`Key`)
+);
+```
+
+2. create job with below components:
+
+![](screenshots/CS_09.png)
+
+3. `tMap` need to join 2 datasets
+
+![](screenshots/CS_11.png)
+
+4. run the job and review the result in database table:
+
+![](screenshots/CS_10.png)
 
 ### Problem 3:
 Consider you are a Talend trainer, and you have to train a new team on creating workflows, working with various source files and connecting to the database and store data into it. Now being a trainer, demonstrate how to perform following:
