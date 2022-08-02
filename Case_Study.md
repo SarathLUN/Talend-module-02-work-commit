@@ -68,16 +68,17 @@ Where ‘Key’ is a numeric primary key in the database and ‘Name’ is the c
 ### Solution 2:
 
 1. create table schema
-```sql
-create table LosAngelesandOrangeCounties
-(
-	`Key` int auto_increment,
-	Name varchar(40) null,
-	Address varchar(40) null,
-	Country varchar(40) null,
-	constraint LosAngelesandOrangeCounties_pk
-		primary key (`Key`)
-);
+
+```mysql
+  create table LosAngelesandOrangeCounties
+  (
+      `Key` int auto_increment,
+      Name varchar(40) null,
+      Address varchar(40) null,
+      Country varchar(40) null,
+      constraint LosAngelesandOrangeCounties_pk
+          primary key (`Key`)
+  );
 ```
 
 2. create job with below components:
